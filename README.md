@@ -123,7 +123,7 @@ transport-mode-detection/
 ## Quick start
 
 ```bash
-git clone https://github.com/CharalamposGiannakis/transport-mode-detection.git
+git clone https://github.com/YOUR_USERNAME/transport-mode-detection.git
 cd transport-mode-detection
 
 pip install -r requirements.txt
@@ -139,6 +139,10 @@ pip install -r requirements.txt
 ## Limitations
 
 Three internal participants is a small pool — typical HAR studies use 10–30. The external validation on three additional users provides some evidence of generalization, but the per-participant variance (external F1 ranges from 0.46 to 0.77) shows that the model's performance is still heavily user-dependent. Uncontrolled phone placement is the largest single source of cross-user variance. Future work should target a larger, more device-diverse participant pool and explicit modeling of phone placement as a domain factor.
+
+## Acknowledgments
+
+Developed collaboratively during my MSc in Business Analytics at Vrije Universiteit Amsterdam.
 
 ## License
 
