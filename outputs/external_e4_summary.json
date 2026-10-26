@@ -1,0 +1,15 @@
+{
+  "flat_rf_e4_macro_f1": 0.6018385850099989,
+  "cascade_e4_macro_f1": 0.5940551529010758,
+  "internal_loso_flat_rf": 0.568,
+  "internal_loso_cascade": 0.572,
+  "delta_flat_rf": 0.03383858500999892,
+  "delta_cascade": 0.022055152901075847,
+  "n_external_windows_flat": 5274,
+  "n_external_windows_cas": 5274,
+  "external_participants": [
+    "laura",
+    "maria",
+    "monika"
+  ]
+}

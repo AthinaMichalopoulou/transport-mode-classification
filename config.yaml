@@ -1,0 +1,29 @@
+project:
+  name: transport-mode-detection
+
+data:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+
+processing:
+  sampling_rate_hz: 50
+  window_seconds: 5
+  overlap: 0.5
+  trim_seconds: 10
+
+modes:
+  - stationary
+  - walking
+  - cycling
+  - metro
+  - bus
+  - tram
+
+main_sensors:
+  - accelerometer
+  - linear_accelerometer
+  - gyroscope
+
+optional_sensors:
+  - barometer
