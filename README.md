@@ -123,7 +123,7 @@ transport-mode-detection/
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/transport-mode-detection.git
+git clone https://github.com/AthinaMichalopoulou/transport-mode-classification.git
 cd transport-mode-detection
 
 pip install -r requirements.txt
