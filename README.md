@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33970976/README.md)
-
 # Transport Mode Detection from Smartphone Sensors
 
 Classifying six transport modes (stationary, walking, cycling, bus, metro, tram) from smartphone IMU data, with a structured evaluation that degrades from random-window splits to leave-one-subject-out to external validation on unseen participants. Random Forest with 129 hand-crafted features reaches **macro-F1 = 0.57 under LOSO** and **0.60 on three completely new users**, while a Temporal Convolutional Network collapses to 0.18 — and counterintuitively gets *worse* with more training data per subject.
